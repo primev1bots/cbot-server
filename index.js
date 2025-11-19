@@ -81,7 +81,7 @@ const DEFAULT_USER_DATA = {
 const REFERRAL_BONUS = 0.0015;
 
 // --- Telegram Bot Setup ---
-const BOT_TOKEN = '8335072542:AAFyTBDy0aN8Mq5U3gIhA3pE48u7kSPGSLY';
+const BOT_TOKEN = '7799835147:AAEwNX8hMK_t7Tc2Fzd33SIGuN0OiiPBmIg';
 const bot = new Telegraf(BOT_TOKEN);
 
 // --- Utility Functions ---
@@ -1252,5 +1252,6 @@ setTimeout(async () => {
         console.error('❌ Firebase connection test failed:', error.message);
     }
 }, 2000);
+
 
 module.exports = app;
